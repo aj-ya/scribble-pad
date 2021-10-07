@@ -1,0 +1,132 @@
+@import url("./assets/fontface.css");
+@keyframes TransitioningBackground {
+  0% {
+    background-position: 1% 0%;
+  }
+  50% {
+    background-position: 99% 100%;
+  }
+  100% {
+    background-position: 1% 0%;
+  }
+}
+button.submit-btn {
+  font-family: "Gilroy-Medium", sans-serif;
+  margin: 20px auto 0 auto;
+  padding: 5px 6px;
+  border: 1px solid #efffff;
+  background: #0064ff;
+  width: 85%;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+.submit-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: TransitioningBackground 10s ease infinite;
+    transition: 0.6s;
+}
+.submit-btn::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    top: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+.submit-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 100%;
+    top: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+.submit-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.submit-btn:hover::before, .submit-btn:hover::after {
+    transform: translateX(300px) skewX(-15deg);
+    transition: 0.7s;
+}
+
+.auth-form {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 25px;
+  background: #ffffff;
+  width: 250px;
+  display: block;
+}
+
+.auth-label {
+  font-family: "Gilroy-Medium";
+  padding-left: 3px;
+  margin: 10px 0 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+.auth-input {
+  font-family: monospace;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+}
+.auth-input:focus {
+  outline: none !important;
+  border: 1px solid #0064ff;
+}
+#container {
+  background-color: antiquewhite;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#app {
+  display: flex;
+}
+#h1{
+  font-family: "Gilroy-ExtraBold";
+  font-size: x-large;
+  margin-top: 5px;
+  color: #0064ff;
+  margin-bottom: 5px;
+}
+#container-old {
+  background: url("./assets/images/pngtree-wavy-abstract-black-white-line-background-image_318761.jpg")
+    no-repeat;
+  background-size: cover;
+  background-color: antiquewhite;
+  background:"auth-form: #f5f5f5";
+}
+.err{
+  font-family: "Gilroy-Medium";
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+  margin-top: 0;
+  padding-left: 2px;
+  font-size: small;
+}

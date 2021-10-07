@@ -1,0 +1,29 @@
+@import url(./Components/Auth/assets/fontface.css);
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    color: #000000;
+}
+.canvas-area {
+    margin: 10px 0px 0 10px;
+    background-color: #ffffff;
+}
+h5{
+    font-weight: bolder;
+    font-style: italic;
+}
+.main-div{
+    max-width:100vw;
+    padding: 0px;
+}
+.row{
+    margin-right: 0px;
+}
