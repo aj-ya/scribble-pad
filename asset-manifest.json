@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scribble-pad/static/css/main.d0033b67.chunk.css",
-    "main.js": "/scribble-pad/static/js/main.e67ab639.chunk.js",
-    "main.js.map": "/scribble-pad/static/js/main.e67ab639.chunk.js.map",
+    "main.js": "/scribble-pad/static/js/main.5fcb0cec.chunk.js",
+    "main.js.map": "/scribble-pad/static/js/main.5fcb0cec.chunk.js.map",
     "runtime-main.js": "/scribble-pad/static/js/runtime-main.3b272edc.js",
     "runtime-main.js.map": "/scribble-pad/static/js/runtime-main.3b272edc.js.map",
     "static/css/2.e985627f.chunk.css": "/scribble-pad/static/css/2.e985627f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.e985627f.chunk.css",
     "static/js/2.11c18b2c.chunk.js",
     "static/css/main.d0033b67.chunk.css",
-    "static/js/main.e67ab639.chunk.js"
+    "static/js/main.5fcb0cec.chunk.js"
   ]
 }
