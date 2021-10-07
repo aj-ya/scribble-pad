@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/scribble-pad/static/css/main.d0033b67.chunk.css",
+    "main.js": "/scribble-pad/static/js/main.e67ab639.chunk.js",
+    "main.js.map": "/scribble-pad/static/js/main.e67ab639.chunk.js.map",
+    "runtime-main.js": "/scribble-pad/static/js/runtime-main.3b272edc.js",
+    "runtime-main.js.map": "/scribble-pad/static/js/runtime-main.3b272edc.js.map",
+    "static/css/2.e985627f.chunk.css": "/scribble-pad/static/css/2.e985627f.chunk.css",
+    "static/js/2.11c18b2c.chunk.js": "/scribble-pad/static/js/2.11c18b2c.chunk.js",
+    "static/js/2.11c18b2c.chunk.js.map": "/scribble-pad/static/js/2.11c18b2c.chunk.js.map",
+    "static/js/3.2b2bb63e.chunk.js": "/scribble-pad/static/js/3.2b2bb63e.chunk.js",
+    "static/js/3.2b2bb63e.chunk.js.map": "/scribble-pad/static/js/3.2b2bb63e.chunk.js.map",
+    "index.html": "/scribble-pad/index.html",
+    "static/css/2.e985627f.chunk.css.map": "/scribble-pad/static/css/2.e985627f.chunk.css.map",
+    "static/css/main.d0033b67.chunk.css.map": "/scribble-pad/static/css/main.d0033b67.chunk.css.map",
+    "static/js/2.11c18b2c.chunk.js.LICENSE.txt": "/scribble-pad/static/js/2.11c18b2c.chunk.js.LICENSE.txt",
+    "static/media/fontface.css": "/scribble-pad/static/media/Gilroy-Regular.de88caa6.woff",
+    "static/media/Auth.css": "/scribble-pad/static/media/pngtree-wavy-abstract-black-white-line-background-image_318761.3d451aeb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b272edc.js",
+    "static/css/2.e985627f.chunk.css",
+    "static/js/2.11c18b2c.chunk.js",
+    "static/css/main.d0033b67.chunk.css",
+    "static/js/main.e67ab639.chunk.js"
+  ]
+}
