@@ -13,11 +13,11 @@ ReactDOM.render(
       <Route exact path="/canvas">
         <SketchFieldDemo />
       </Route>{" "}
-      <Route exact path="/login">
-        <Auth />
+      <Route exact path="/register">
+        <Register />
       </Route>{" "}
       <Route path="/">
-        <Register />
+        <Auth />
       </Route>{" "}
     </Switch>{" "}
   </BrowserRouter>,
