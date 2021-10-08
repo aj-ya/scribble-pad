@@ -77,7 +77,7 @@ const Register = () => {
                   }
                   if (errors!==true) {
                     //to database
-                    history.push('/login',{from:'/'})
+                    history.push('/',{from:'/register'})
                   }
                 //if(checkUser(data.username,data.password)){
                   //console.log("log");
